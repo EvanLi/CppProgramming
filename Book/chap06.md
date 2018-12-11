@@ -45,7 +45,7 @@ Table of Contents
 ### 6.1.3　函数示例　105
 **代码清单6-1 无参数、无返回值的函数实例**
 
-```
+```cpp
 // 输出一个由5行组成的三角形
 // 用法：PrintStar()
 void  PrintStar()
@@ -60,7 +60,7 @@ void  PrintStar()
 
 **代码清单6-2 有参数、无返回值的函数实例**
 
-```
+```cpp
 // 输出一个由numOfLine行组成的三角形
 // 用法：PrintStarN(10);
 void PrintStarN(int numOfLine)
@@ -80,7 +80,7 @@ void PrintStarN(int numOfLine)
 
 **代码清单6-3 有参数、有返回值的函数实例**
 
-```
+```cpp
 // 计算n！
 // 用法：fact = p(n);
 int p(int n)
@@ -96,7 +96,7 @@ int p(int n)
 
 **代码清单6-4 无参数、有返回值的函数实例**
 
-```
+```cpp
 // 从键盘获取一个1 – 10之间的整数
 // 用法：num = getInput();
 int getInput()
@@ -112,7 +112,7 @@ int getInput()
 
 **代码清单6-5 返回布尔值的函数实例**
 
-```
+```cpp
 // 判断某个年份是否闰年
 // 用法：if (isLeapYear(2016))……
 bool isLeapYear(int year)
@@ -131,7 +131,7 @@ bool isLeapYear(int year)
 ### 6.2.3　将函数与主程序放在一起　109
 **代码清单6-6　函数的使用**
 
-```
+```cpp
 //文件名：6-6.cpp
 //多函数程序的组成及函数的使用
 #include <iostream>
@@ -172,7 +172,7 @@ void PrintStar(int numOfLine)
 
 **代码清单6-7　函数调用实例**
 
-```
+```cpp
 //文件名：6-7.cpp
 //函数调用示例
 #include <iostream>
@@ -216,7 +216,7 @@ int max( int a, int b )
 
 **代码清单6-8　全局变量实例**
 
-```
+```cpp
 //文件名：6-8.cpp
 //全局变量示例
 #include <iostream>
@@ -251,7 +251,7 @@ void f2()
 
 **代码清单6-9　静态局部变量的应用**
 
-```
+```cpp
 //文件名：6-9.cpp
 //静态局部变量的使用
 #include<iostream>
@@ -283,7 +283,7 @@ int f(int a)
 
 **代码清单6-10　全局变量的错误用法**
 
-```
+```cpp
 //文件名：6-10.cpp
 //全局变量的错误用法
 #include <iostream>
@@ -310,7 +310,7 @@ void f()
 
 **代码清单6-11　外部变量应用实例**
 
-```
+```cpp
 // file1.cpp
 // 外部变量的应用
 #include <iostream>
@@ -327,7 +327,7 @@ int main()
 }
 ```
 
-```
+```cpp
 //file2.cpp
 
 #include <iostream>
@@ -345,7 +345,7 @@ void f()
 
 **代码清单6-12　计算10位学生的平均成绩的函数及使用**
 
-```
+```cpp
 //文件名：6-12.cpp
 //计算10位学生的平均成绩的函数及使用
 #include <iostream>
@@ -377,7 +377,7 @@ int average(int array[10])
 
 **代码清单6-13　整型数据逆序输出的程序**
 
-```
+```cpp
 //文件名：6-13.cpp
 //读入一串整型数据，将其逆序排列并输出排列后的数据。最多允许处理10个数据
 #include <iostream>
@@ -447,7 +447,7 @@ void PrintIntegerArray(int array[ ], int size)
 
 **代码清单6-14　函数的使用**
 
-```
+```cpp
 //文件名：6-14.cpp
 //例5.12的另一实现方法
 #include <iostream>
@@ -513,7 +513,7 @@ int convertToInt(char s[], int start, int base)
 
 **代码清单6-15　用内联函数打印平方表和立方表的程序**
 
-```
+```cpp
 //文件名：6-15.cpp
 //用内联函数打印平方表和立方表
 #include <iostream>
@@ -538,7 +538,7 @@ int main()
 
 **代码清单6-16　重载函数实例**
 
-```
+```cpp
 //文件名：6-16.cpp
 //重载函数示例
 #include <iostream>
@@ -602,7 +602,7 @@ int max(int a1, int a2, int a3, int a4, int a5)
 
 **代码清单6-17　函数模板的定义及使用**
 
-```
+```cpp
 //文件名：6-17.cpp
 //函数模板的定义及使用
 #include <iostream>
@@ -632,7 +632,7 @@ int main()
 
 **代码清单6-18  解决汉诺塔问题的函数**
 
-```
+```cpp
 //文件名：6-18.cpp
 //汉诺塔问题
 #include <iostream>
@@ -661,7 +661,7 @@ void Hanoi(int n, char start, char finish, char temp)
 
 **代码清单6-19　打印一个十进制整数的函数定义及使用**
 
-```
+```cpp
 //文件名：6-19.cpp
 //打印一个十进制整数
 #include <iostream>
@@ -697,7 +697,7 @@ void printInt(int num)
 
 **代码清单6-20　打印二进制、八进制、十进制或十六进制整数的函数定义及使用**
 
-```
+```cpp
 //文件名：6-20.cpp
 //打印二进制、八进制、十进制和十六进制整数
 #include <iostream>
@@ -737,7 +737,7 @@ void printInt(int num, int base)
 
 **代码清单6-22  交换数组中的两个元素**
 
-```
+```cpp
 // 文件名：6-21.cpp
 // 打印n个字符的全排列
 #include <iostream>

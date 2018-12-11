@@ -1,4 +1,4 @@
-# 第五章
+# 第5章 批量数据处理——数组
 
 ## 7.计算5阶行列式
 
@@ -15,7 +15,7 @@
 
 **程序：**
 
-```
+```cpp
 // 计算5阶行列式
 // 逆序数方法
 #include <iostream>
@@ -78,7 +78,7 @@ tempor incididunt ut labore et dolore magna aliqua.
 
 **程序：**
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -118,7 +118,7 @@ int main()
 
 ## 11.井字游戏
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -204,7 +204,7 @@ int main()
 
 **程序：**
 
-```
+```cpp
 //12.ISBN号的鉴定
 #include <iostream>
 #include <cstring>
